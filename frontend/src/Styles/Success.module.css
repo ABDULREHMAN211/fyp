@@ -1,0 +1,74 @@
+.Orderscsnav{
+    background: linear-gradient(
+      to right,
+      rgba(110,126,177,255),
+      rgba(239,142,195,255)
+    );
+  }
+  .Orderscsback{
+    position: absolute;
+    width: 100%;
+    
+  }
+  .bckwhiteresp{
+width: 770px;
+height: 500px;
+  }
+
+  @media (max-width: 768px){
+    .bckwhiteresp{
+      width: 370px;
+      height: 950px;
+    }
+  }
+  .overflowremove{
+overflow: hidden;
+  }
+
+  .firsthead{
+    font-family: nsb,sans-serif;
+    font-size: 26px;
+  }
+  .sechead{
+    font-family: nsb,sans-serif;
+    font-size: 18px;
+  }
+
+  .thhead{
+    font-family: bop,sans-serif;
+    font-size: 16px;
+  }
+  .lstbtn{
+    font: pm,sans-serif;
+    font-size: 16px;
+    width: 224px;
+    height: 47px;
+  }
+  @media (max-width: 768px){
+    
+    .firsthead{
+      font-family: nsb,sans-serif;
+      font-size: 26px;
+    }
+    .sechead{
+      margin-top: 10px;
+    }
+    .thhead{
+      font-family: bop,sans-serif;
+      font-size: 16px;
+      margin-bottom: 0px;
+    }
+    .lstbtn{
+      margin-top: -89px !important;
+    }
+    .allrespo{
+      margin: 63px;
+      margin-top: -120px !important;
+    }
+    .makingrep{
+      width: 310px !important;
+    }
+    .Orderscsback{
+      overflow: hidden !important;
+    }
+  }

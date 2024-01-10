@@ -1,0 +1,113 @@
+.Blognavback {
+    background: linear-gradient(
+      to right,
+      rgba(110, 126, 177, 255),
+      rgba(239, 142, 195, 255)
+    );
+  }
+  .Blogback {
+    background-color: #F3F3F3;
+  }
+  
+  @media (max-width: 768px){
+    .bckimg{
+      width: 300px;
+      height: 222px;
+    }
+  } 
+  
+  .Artback{
+    background: #FBFBFB;
+  }
+  .Pagiback {
+    background: linear-gradient(
+      to right,
+      rgba(232, 232, 232, 1),
+      rgba(184, 184, 184, 1)
+    );
+  }
+  .forposition{
+    background-color: #FBFBFB;
+  }
+  
+  .sidbar{
+    height: 35px;
+    width: 30px;
+    margin-left: -15px;
+    overflow: hidden;
+    transition: all .5s ease-out;
+  }
+  .sidbar a{
+  text-decoration: none;
+  }
+  .sidbar:hover{
+    width: 106px;
+    margin-left: -91px;
+  }
+  
+   
+  
+  
+  .bloghead {
+    font-family: nsb, sans-serif;
+    font-size: 54px;
+  }
+  .blogpara {
+    font-family: nsb, sans-serif;
+    font-size: 28px;
+  }
+  .blogsehead {
+    font-family: nsb, sans-serif;
+    font-size: 23px;
+  }
+  .blogthhead {
+    font-family: nsb, sans-serif;
+    font-size: 23px;
+    color: #EE1D52;
+  }
+  .Pagibackone {
+    background: linear-gradient(
+      to right,
+      rgba(56, 151, 240, 1),
+      rgba(40, 119, 191, 1)
+    );
+  }
+  
+  /* First two letters shows font name and last  letter shows font size */
+  .nsf {
+    font-family: sublb, sans-serif;
+    font-size: 14px;
+  }
+  .nse {
+    font-family: nsb, sans-serif;
+    font-size: 18px;
+  }
+  
+  .prf {
+    font-family: nsb, sans-serif;
+    font-size: 15px;
+  }
+  .pmfpagi {
+    font-family: pm, sans-serif;
+    font-size: 14px;
+  }
+  .sblgf{
+    font-family: sublb, sans-serif;
+    font-size: 14px;
+    color: #737373;
+  }
+  .sblgsec{
+    font-family: nsb, sans-serif;
+    font-size: 28px;
+  }
+  
+  .singleblgh{
+    font-family: nsb, sans-serif;
+    font-size: 24px;
+  }
+  
+  .singlepara{
+    font-family: bop, sans-serif;
+    font-size: 16px;
+    color: #2D2D2D;
+  }
